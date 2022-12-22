@@ -1,0 +1,157 @@
+/* div { border: solid 1px red;} */
+*{
+  font-family: 'NanumSquareRound';
+}
+
+
+h1 {
+  text-align: center;
+  font-size: 45px;
+  color: #183052;
+}
+.search {
+  text-align: center;
+  margin-top: 100px;
+}
+.fa-solid.fa-magnifying-glass-location {
+  color: black;
+  font-size: 35px;
+  color: #183052;
+}
+.fa-solid.fa-magnifying-glass-location:hover {
+  opacity: 0.5;
+}
+button {
+  background-color: transparent;
+  border: none;
+}
+input {
+  border-top: none;
+  border-left:none;
+  border-right: none;
+  border-bottom: 1px #183052 solid;
+  background-color:transparent; 
+  width: 300px;
+}
+input:focus{
+outline: none;   
+}
+li { list-style: none }
+.line {
+  width: 550px;
+  height: 145px;
+  text-align: center;
+  margin: auto;
+  margin-top: 100px;
+  width: 70%;
+  position: relative;
+  min-width: 600px;
+}
+.line_name_kr {
+  font-size: 25px;
+  font-family: 'NanumSquareRoundBold';
+}
+.line_name_en {
+  font-size: 10px;
+}
+.left_line{
+  width: 270px;
+  position: absolute;
+  bottom: 15px;
+  left: 5px;
+}
+.left {
+  text-align: left;
+  font-size: 13px;
+}
+.right_line {
+  width: 270px;
+  position: absolute;
+  bottom: 15px;
+  right: 5px;
+}
+.right {
+  text-align: right;
+  font-size: 13px;
+}
+.center_name{
+  width: 100px;
+  background-color: white;
+  border-radius: 7px;
+  width: fit-content;
+  min-width: 150px;
+}
+.space{
+  display: flex;
+  justify-content: space-between;
+  background-color: #3957b1;
+  height: 30%;
+}
+.left_name{
+  width: 130px;
+  padding-top: 14px;
+  font-size: 15px;
+  color: white;
+  text-align: left;
+  padding-left: 5px;
+}
+.right_name{
+  width: 130px;
+  padding-top: 14px;
+  font-size: 15px;
+  color: white;
+  text-align: right;
+  padding-right: 5px;
+}
+.left_soon {
+  font-size: 13px;
+  color: red;
+  width: 100px;
+  position: relative;
+  bottom: 13px;
+  left: 70px;
+  text-align: right;
+}
+.left_next {
+  font-size: 13px;
+  color: red;
+  width: 100px;
+  position: relative;
+  bottom: 13px;
+  left: 70px;
+  text-align: right;
+}
+.right_soon {
+  font-size: 13px;
+  color: red;
+  width: 100px;
+  position: relative;
+  bottom: 13px;
+  left: 95px;
+  text-align: left;
+}
+.right_next {
+  font-size: 13px;
+  color: red;
+  width: 100px;
+  position: relative;
+  bottom: 13px;
+  left: 95px;
+  text-align: left;
+}
+#back {
+  width: 50px;
+  font-size: 13px;
+  
+  text-align: left;
+}
+#front {
+  width: 50px;
+  font-size: 13px;
+  
+  text-align: right;
+}
+.backfront {
+  display: flex;
+  justify-content: space-between;
+}
