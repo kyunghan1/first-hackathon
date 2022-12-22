@@ -34,7 +34,7 @@ function requestPlz() {
             }
         }
     }
-    xhr.open("GET", "http://127.0.0.1:3000/metro?search=" + encodeURIComponent(searchSation));
+    xhr.open("GET", "https://kyunghan1.github.io/first-hackathon/metro?search=" + encodeURIComponent(searchSation));
     xhr.send();
 }
 
